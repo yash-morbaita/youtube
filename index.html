@@ -1,27 +1,61 @@
+<!-- CLONE BY YASH -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Youtube.com Clone</title>
+  <title>youtube.com Clone</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <input class=search-bar type="textbox" placeholder="Search">
-
-  <div>
-
+  <div class="header">
+  <div class="left-section">
+    <img class="hamburger-menu" src="images/hamburger-menu.svg" alt="">
+    <img  class= "youtube-logo" src="images/youtube-logo.svg" alt="">
   </div>
+  <div class="middle-section">
+    <input class="search-bar" type="textbox" placeholder="Search">
+    <button class="search-button"><img class="search-icon"  src="images/search.svg" alt="Search">
+    <div class="tooltip">Search</div>
+    </button>
+    <button class="voice-search-button"><img class="voice-search-icon" src="images/voice-search-icon.svg" alt=""><div class="tooltip">Search with voice</div></button>
+  </div>
+  <div class="right-section">
+    <div class="create-button">
+    <img class="upload-icon" src="images/upload.svg" alt=""><div class="tooltip">Create</div></div>
+    <div class="youtube-button">
+    <img class="youtube-apps-icon" src="images/youtube-apps.svg" alt=""><div class="tooltip">Youtube Apps</div></div>
+    <div  class="notification-button">
+    <div class="notification-icon-container">
+    <img class="notification-icon" src="images/notifications.svg" alt="">
+    <div class="notification-count">3</div>
+    </div><div class="tooltip">Notifications</div></div>
+    <div></div>
+    <img class="my-channel" src="images/avatar.jpg" alt="">
+  </div>  
+  </div>
+  
+  <div class="sidebar">
+    <div class="sidebar-link"><img src="images/home.svg" alt=""><div>Home</div></div>
+    <div class="sidebar-link"><img src="images/explore.svg" alt=""><div>Explore</div></div>
+    <div class="sidebar-link"><img src="images/subscriptions.svg" alt=""><div>Subscriptions</div></div>
+    <div class="sidebar-link"><img src="images/originals.svg" alt=""><div>Originals</div></div>
+    <div class="sidebar-link"><img src="images/youtube-music.svg" alt=""><div>Youtube Music</div></div>
+    <div class="sidebar-link"><img src="images/library.svg" alt=""><div>Library</div></div>
+  </div>
+
+
 
   <div class="video-grid">
 
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="images/thumbnail-1.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -38,6 +72,7 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -53,11 +88,12 @@
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumb">
+        <img class="thumbnail" src="images/thumbnail-3.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img  class="profile-pic" src="images/channel-2.jpeg">
+          <img  class="profile-pic" src="images/channel-3.jpeg">
         </div>
         <div class="video-info">
         <p class="video-title">Try Not To Laugh Challenge #9</p>
@@ -69,11 +105,12 @@
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumb">
+        <img class="thumbnail" src="images/thumbnail-4.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img  class="profile-pic" src="images/channel-2.jpeg">
+          <img  class="profile-pic" src="images/channel-4.jpeg">
         </div>
         <div class="video-info">
         <p class="video-title">Try Not To Laugh Challenge #9</p>
@@ -85,11 +122,12 @@
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumb">
+        <img class="thumbnail" src="images/thumbnail-5.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img  class="profile-pic" src="images/channel-2.jpeg">
+          <img  class="profile-pic" src="images/channel-5.jpeg">
         </div>
         <div class="video-info">
         <p class="video-title">Try Not To Laugh Challenge #9</p>
@@ -101,11 +139,12 @@
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumb">
+        <img class="thumbnail" src="images/thumbnail-6.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img  class="profile-pic" src="images/channel-2.jpeg">
+          <img  class="profile-pic" src="images/channel-6.jpeg">
         </div>
         <div class="video-info">
         <p class="video-title">Try Not To Laugh Challenge #9</p>
@@ -117,11 +156,12 @@
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumb">
+        <img class="thumbnail" src="images/thumbnail-7.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img  class="profile-pic" src="images/channel-2.jpeg">
+          <img  class="profile-pic" src="images/channel-7.jpeg">
         </div>
         <div class="video-info">
         <p class="video-title">Try Not To Laugh Challenge #9</p>
@@ -133,11 +173,12 @@
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumb">
+        <img class="thumbnail" src="images/thumbnail-8.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img  class="profile-pic" src="images/channel-2.jpeg">
+          <img  class="profile-pic" src="images/channel-8.jpeg">
         </div>
         <div class="video-info">
         <p class="video-title">Try Not To Laugh Challenge #9</p>
@@ -149,11 +190,12 @@
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumb">
+        <img class="thumbnail" src="images/thumbnail-9.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img  class="profile-pic" src="images/channel-2.jpeg">
+          <img  class="profile-pic" src="images/channel-9.jpeg">
         </div>
         <div class="video-info">
         <p class="video-title">Try Not To Laugh Challenge #9</p>
@@ -165,11 +207,12 @@
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumb">
+        <img class="thumbnail" src="images/thumbnail-10.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img  class="profile-pic" src="images/channel-2.jpeg">
+          <img  class="profile-pic" src="images/channel-10.jpeg">
         </div>
         <div class="video-info">
         <p class="video-title">Try Not To Laugh Challenge #9</p>
@@ -181,11 +224,12 @@
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumb">
+        <img class="thumbnail" src="images/thumbnail-11.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img  class="profile-pic" src="images/channel-2.jpeg">
+          <img  class="profile-pic" src="images/channel-11.jpeg">
         </div>
         <div class="video-info">
         <p class="video-title">Try Not To Laugh Challenge #9</p>
@@ -197,11 +241,12 @@
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-2.webp" alt="thumb">
+        <img class="thumbnail" src="images/thumbnail-12.webp" alt="thumb">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img  class="profile-pic" src="images/channel-2.jpeg">
+          <img  class="profile-pic" src="images/channel-12.jpeg">
         </div>
         <div class="video-info">
         <p class="video-title">Try Not To Laugh Challenge #9</p>
